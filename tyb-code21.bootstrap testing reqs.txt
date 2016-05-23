@@ -1,0 +1,71 @@
+Things to include on a Bootstrap testing page.
+
+Navs and Navbar
+navbar
+navbar-inverse
+Tabs Pills both horizontal and vertical
+Breadcrumbs
+Pagination: default large small
+  items: active disabled noclass
+Pager
+  items: active disabled noclass
+
+Buttons
+default primary success info warning danger link
+disabled: default primary success info warning danger link
+btn-group with dropdown: default primary success info warning danger link
+Large Default Small X-Small
+Block
+Button Group
+Button Toolbar
+button-group-vertical
+
+Typography
+h1 h2 h3 h4 h5 h6
+paragraph with link
+small bold italic abbreviations code
+text-muted text-primary text-warning text-danger text-success text-info
+Blockquote Blockquote right aligned
+
+Tables
+table table-striped table-hover
+thead
+tbody with
+  two rows with no class
+  info
+  success
+  danger
+  warning
+  active
+
+Forms
+form groups
+legend
+fieldset
+form fields: email password checkbox radio textarea select multi-select submit reset
+form field formats: focused disabled warning error success
+form field sizes: large default small
+input field with addons
+
+Indicators
+alerts: warning danger success info
+labels: default primary success warning danger info
+badges
+
+Progress bars
+standard info success warning danger
+striped
+animated
+stacked
+
+Containers
+Jumbotron
+List groups: badges active text
+Panels: basic heading footer
+  primary success warning danger info
+Wells: small default large
+
+Dialogs
+Modals
+Popovers
+Tooltips

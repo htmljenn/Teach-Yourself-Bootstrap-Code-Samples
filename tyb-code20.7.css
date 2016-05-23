@@ -1,0 +1,12 @@
+.item h1 { 
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+.carousel-indicators li, .carousel-indicators .active {
+  border-color: #000;
+}
+.carousel-indicators .active {
+  background-color: #000;
+}

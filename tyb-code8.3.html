@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Table Classes</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      .table-striped>tbody>tr:nth-of-type(odd) {
+        background-color: #d6adfa;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="container">
+    <p>
+    <table class="table table-striped">
+      <caption>Contact Information</caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Title</th>
+          <th>URL</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jennifer Kyrnin</td>
+          <td>Chief Dandylion Officer</td>
+          <td>http://htmljenn.com/</td>
+          <td>htmljenn@gmail.com</td>
+        </tr>
+        <tr>
+          <td>McKinley</td>
+          <td>Dandelion Observation Officer</td>
+          <td>http://responsivewebdesignin24hours.com/mckinley</td>
+          <td>mckinley@rwdin24hours.com</td>
+        </tr>
+        <tr>
+          <td>Rambler</td>
+          <td>Chief Taste Tester</td>
+          <td>http://responsivewebdesignin24hours.com/rambler</td>
+          <td>rambler@rwdin24hours.com</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4"><p>McKinley and Rambler are a dog and a horse, respectively.</p></td>
+        </tr>
+      </tfoot>
+    </table>
+    </p>
+  </div>
+  </body>
+</html>

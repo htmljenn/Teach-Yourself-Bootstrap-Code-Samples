@@ -1,0 +1,11 @@
+.green-bordered(@borderwidth: 3px) {
+  border: solid green @borderwidth; 
+}
+
+p.pull-right {
+  .green-bordered();
+}
+
+p.wide-border {
+  .green-bordered(10px);
+}

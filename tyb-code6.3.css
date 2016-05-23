@@ -1,0 +1,5 @@
+.label-default {
+  background-image: -webkit-linear-gradient(270deg,rgba(153,153,153,1.00) 0%,rgba(255,255,255,1.00) 100%);
+  background-image: linear-gradient(180deg,rgba(153,153,153,1.00) 0%,rgba(255,255,255,1.00) 100%);
+  color: #000000;
+}

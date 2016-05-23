@@ -1,0 +1,12 @@
+$(document).ready(function(){
+  $('#menu .collapse').on('show.bs.collapse', function() {
+    var $head = $(this).prev();
+    $head.find('span').removeClass('glyphicon-chevron-right')
+                      .addClass('glyphicon-chevron-down');
+  });
+  $('#menu .collapse').on('hide.bs.collapse', function() {
+    var $head = $(this).prev();
+    $head.find('span').removeClass('glyphicon-chevron-down')
+                      .addClass('glyphicon-chevron-right');
+  });
+});

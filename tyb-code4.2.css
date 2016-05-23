@@ -1,0 +1,15 @@
+a:link, a:visited, a:active { 
+  text-decoration: underline;
+}
+body { 
+  background-color: #CCF6FA;
+  margin-left: 0.5%;
+}
+ul { 
+  padding-left: 0; 
+  margin-left: 2%; 
+}
+dd { 
+  text-indent: 3%; 
+}
+
